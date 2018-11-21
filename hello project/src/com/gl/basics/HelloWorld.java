@@ -6,7 +6,7 @@ public class HelloWorld {
 	private static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {// entry point
-
+		System.out.println("welcome to Hello WOrld");
 		Address address = new Address();
 		System.out.println("Enter City");
 		address.setCity(sc.next());
