@@ -1,0 +1,19 @@
+create a class
+create methods that contains logic
+create fields to store data
+create appropriate constructor
+
+Customer.java
+Order.java
+Invoice.java
+Quote.java=> id, description
+Account.java
+Employee.java
+Manager.java
+Client.java
+Hotel.java
+Room.java=> ac/non-ac, single/double, delux/standard/premium
+User.java
+
+
+
