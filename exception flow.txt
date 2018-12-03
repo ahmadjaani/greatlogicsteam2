@@ -1,0 +1,14 @@
+ArithemeticException is thrown:
+
+1. When a number is divided by zero; then JVM does not understand how to handle this operation
+
+2. Then in such case it creates on object of ArithemticException class representing that event(divide by zero), info about the event
+
+3. Then it looks for appropriate handler(catch block) in the program for this object
+
+4. If it finds a handler then the object is passed to handler and program continues noramally
+
+5. If it does not find any handler then JVM stops the execution abruptly.
+
+How to create custom exception?
+Ans: Create a class that extends from Exception class
