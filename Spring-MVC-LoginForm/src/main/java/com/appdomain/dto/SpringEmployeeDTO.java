@@ -3,9 +3,7 @@ package com.appdomain.dto;
 public class SpringEmployeeDTO {
 
 	public String firstName;
-	
 	public String lastName;
-	
 	public String mobileNumber;
 	
 	public String email;
