@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style type="text/css">
+h1 {
+	color: green;
+	align-content: center;
+}
+
+.mytable {
+	align-content: center
+}
+</style>
+</head>
+<body>
+	<h1>User Login</h1>
+	<form action="LoginServlet" method="post">
+		<table class="mytable">
+			<tr>
+				<td>Email</td>
+				<td><input type="email" name="eml"
+					placeholder="Enter Your Registerd Email"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="pwd"
+					placeholder="Enter Your Registerd Password"></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Login</button></td>
+				<td><button type="reset">Reset</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
