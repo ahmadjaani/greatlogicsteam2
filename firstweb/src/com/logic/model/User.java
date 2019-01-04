@@ -2,6 +2,7 @@ package com.logic.model;
 
 public class User {
 	private int id;
+	private String name, email, password;
 
 	public int getId() {
 		return id;
@@ -11,7 +12,6 @@ public class User {
 		this.id = id;
 	}
 
-	private String name, email, password;
 
 	public String getName() {
 		return name;
